@@ -1,0 +1,6 @@
+{
+  "programming": ["C++", "Python", "SQL", "JavaScript"],
+  "ai_ml": ["Machine Learning", "NLP", "Generative AI", "LLM Applications", "RAG", "Scikit-learn", "TensorFlow", "PyTorch"],
+  "backend": ["FastAPI", "Streamlit", "Docker", "Git", "GitHub"],
+  "cloud_data": ["Google Cloud Platform", "BigQuery", "Kubernetes", "Hugging Face", "Power BI", "MySQL / SQLite", "DuckDB"]
+}

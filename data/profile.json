@@ -1,0 +1,14 @@
+{
+  "name": "Yash Kushwaha",
+  "tagline": "AI/ML Engineer in Progress · Software Engineering Enthusiast",
+  "positioning_statement": "Building intelligent systems at the intersection of machine learning, software engineering, and real-world problems.",
+  "about": "I'm a Computer Science student specializing in AI & Machine Learning at Pranveer Singh Institute of Technology (PSIT), Kanpur, currently in my third year. My work sits between applied ML and software engineering: I build systems that go from raw data to a working interface, not just notebooks. Recent work spans exam-preparation tooling powered by LLMs, a sustainability dashboard combining anomaly detection and forecasting, and ML internship work on large-scale predictive modeling. This project — a personal AI agent grounded in my own portfolio data — is part of the same thread: I'm interested in how retrieval, tool use, and grounding turn a language model into something you can actually trust to answer for you.",
+  "location": "Kanpur, India",
+  "career_direction": "AI/ML Engineering + Software Engineering",
+  "currently_learning": "Currently deepening my understanding of Generative AI, retrieval-augmented generation, and LLM application architecture — this project is part of that hands-on learning.",
+  "resume_url": "Not provided",
+  "open_to": [
+    "AI/ML Internships",
+    "Software Engineering Internships"
+  ]
+}

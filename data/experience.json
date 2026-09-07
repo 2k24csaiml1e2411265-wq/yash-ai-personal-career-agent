@@ -1,0 +1,51 @@
+[
+  {
+    "id": "flyrank-ai",
+    "organization": "FlyRank AI",
+    "role": "Machine Learning Intern",
+    "duration": "Aug 2026 – Present",
+    "location": "Remote",
+    "description": "Working end-to-end on applied ML workflows — from raw data to evaluated predictive models — on large-scale datasets.",
+    "technologies": [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "DuckDB"
+    ],
+    "highlights": [
+      "Built and evaluated predictive models on large-scale datasets",
+      "Performed data preprocessing and feature engineering",
+      "Conducted exploratory data analysis (EDA) to guide modeling decisions"
+    ]
+  },
+  {
+    "id": "1m1b",
+    "organization": "1M1B (One Million for One Billion)",
+    "role": "Student Intern",
+    "duration": "Jun 2026 – Aug 2026",
+    "location": "Remote",
+    "description": "Contributed to sustainability-focused AI projects, researching environmental challenges and prototyping AI-powered tools.",
+    "technologies": [],
+    "highlights": [
+      "Researched environmental and sustainability challenges",
+      "Built AI-powered tools addressing those challenges",
+      "Prepared reports and presentations on findings"
+    ]
+  },
+  {
+    "id": "edunet-foundation",
+    "organization": "Edunet Foundation",
+    "role": "AI Intern",
+    "duration": "May 2026 – Jul 2026",
+    "location": "Remote",
+    "description": "Built AI/ML solutions through project-based learning, covering the full model lifecycle from data to deployment.",
+    "technologies": [
+      "Python"
+    ],
+    "highlights": [
+      "Performed data preprocessing for ML pipelines",
+      "Developed and trained models as part of guided projects",
+      "Deployed models as part of the project lifecycle"
+    ]
+  }
+]

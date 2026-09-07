@@ -1,0 +1,93 @@
+[
+  {
+    "id": "examlens-ai",
+    "name": "ExamLens AI",
+    "tagline": "An AI-powered university exam-paper analyzer.",
+    "category": ["AI/ML", "GenAI"],
+    "short_description": "Analyzes past exam papers with an LLM to surface likely topics, predict questions, and generate a study roadmap.",
+    "problem": "Before exams, students often work from a stack of previous question papers with no systematic way to see which topics repeat, which are likely to appear again, or how to prioritize limited revision time.",
+    "solution": "ExamLens AI ingests past exam papers and uses an LLM to analyze question patterns across years. It surfaces a topic heatmap, predicts likely upcoming questions, generates a personalized study roadmap, extracts key formulas, and produces practice MCQs — all exportable as a PDF report.",
+    "features": [
+      "Topic heatmap across multiple years of papers",
+      "Predicted questions for the next exam",
+      "Personalized study roadmap",
+      "Key formula extraction",
+      "MCQ practice generation",
+      "One-click PDF export of the analysis",
+      "LLM-powered question analysis (Llama 3.3 via Groq)"
+    ],
+    "technologies": ["Python", "Streamlit", "Groq API", "Llama 3.3"],
+    "architecture": "Not provided",
+    "engineering_decisions": [
+      "Chose Streamlit for the interface to move quickly from analysis logic to a usable tool without building a separate frontend.",
+      "Used Groq's hosted Llama 3.3 for inference speed, given the interactive, multi-step nature of the analysis."
+    ],
+    "status": "Built",
+    "github": "Not provided",
+    "demo": "Not provided"
+  },
+  {
+    "id": "smart-campus-sustainability-dashboard",
+    "name": "Smart Campus Sustainability Dashboard",
+    "tagline": "A live sustainability dashboard for PSIT Kanpur.",
+    "category": ["AI/ML", "Data"],
+    "short_description": "Tracks energy, water, and solar usage by department, with anomaly detection, forecasting, and a Green Score.",
+    "problem": "Campus facilities teams and departments had no consolidated, real-time view of energy, water, and solar performance — making it hard to spot waste, anomalies, or track sustainability progress over time.",
+    "solution": "A dashboard that ingests campus utility data and applies three ML models: Isolation Forest for anomaly detection on consumption patterns, Prophet for forecasting future usage, and a Decision Tree for predicting a department-level Green Score. Results are surfaced through monitoring views, a department leaderboard, and estimated CO₂ savings.",
+    "features": [
+      "Energy monitoring by department",
+      "Solar generation monitoring",
+      "Water usage monitoring",
+      "Green Score per department",
+      "Department leaderboard",
+      "Estimated CO₂ savings",
+      "Anomaly detection on consumption data",
+      "Usage forecasting"
+    ],
+    "technologies": ["Streamlit", "Scikit-learn", "Isolation Forest", "Prophet", "Decision Tree"],
+    "architecture": "Not provided",
+    "engineering_decisions": [
+      "Used three purpose-built models (Isolation Forest, Prophet, Decision Tree) instead of one general model, since anomaly detection, time-series forecasting, and score prediction are distinct problems with different data assumptions."
+    ],
+    "status": "Built",
+    "github": "Not provided",
+    "demo": "Not provided"
+  },
+  {
+    "id": "pathforge",
+    "name": "PathForge",
+    "tagline": "Agentic AI Career Intelligence Platform",
+    "category": ["AI/ML", "GenAI", "NLP"],
+    "short_description": "An AI-powered career intelligence system that analyzes skills and job requirements to identify career gaps and prioritize skills for development.",
+    "problem": "Job seekers often know their current skills but lack a structured way to compare those skills with changing job requirements and identify which skills would have the greatest impact on their career direction.",
+    "solution": "PathForge analyzes resume and profile information, converts skills into structured representations, retrieves relevant job requirements using semantic similarity, and compares current skills with required skills to identify prioritized career gaps.",
+    "features": [
+      "Resume and profile skill extraction",
+      "Structured skill representation",
+      "Semantic matching with job requirements",
+      "Required Skill Graph",
+      "Current Skill Profile comparison",
+      "Career Resilience Score",
+      "Prioritized skill recommendations",
+      "Semantic retrieval of job postings"
+    ],
+    "technologies": [
+      "Python",
+      "NLP",
+      "Sentence Transformers",
+      "FAISS",
+      "DuckDB",
+      "Groq API"
+    ],
+    "architecture": "Resume/profile → NLP skill extraction → structured skill profile → semantic retrieval of job postings → required skill representation → skill-gap comparison → career resilience analysis → prioritized recommendations.",
+    "engineering_decisions": [
+      "Used Sentence Transformers for semantic representations instead of relying only on keyword matching.",
+      "Used FAISS for efficient similarity search over job and skill representations.",
+      "Used DuckDB for analytical processing of job-posting data.",
+      "Designed the system around structured skill comparison so recommendations are grounded in identifiable career gaps."
+    ],
+    "status": "Built",
+    "github": "https://github.com/2k24csaiml1e2411265-wq/PathForge",
+    "demo": "Not provided"
+  }
+]

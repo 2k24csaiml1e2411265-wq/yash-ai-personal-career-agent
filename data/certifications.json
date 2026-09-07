@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Python for Data Science",
+    "issuer": "IBM",
+    "date": "2026",
+    "credential_url": "",
+    "description": "Certificate covering Python programming and data science fundamentals, including data analysis workflows and practical Python usage."
+  },
+  {
+    "name": "Machine Learning",
+    "issuer": "DeepLearning.AI",
+    "date": "2026",
+    "credential_url": "",
+    "description": "Certificate covering fundamental machine learning concepts, supervised learning, model evaluation, and practical ML workflows."
+  },
+  {
+    "name": "Data Fundamentals",
+    "issuer": "IBM",
+    "date": "2026",
+    "credential_url": "",
+    "description": "Certificate covering foundational data concepts, data analysis, data management, and working with data-driven systems."
+  },
+  {
+    "name": "AI Fundamentals",
+    "issuer": "IBM",
+    "date": "2026",
+    "credential_url": "",
+    "description": "Certificate covering foundational artificial intelligence concepts and applications."
+  },
+  {
+    "name": "Data Analytics Job Simulation",
+    "issuer": "Deloitte Australia",
+    "date": "2026",
+    "credential_url": "",
+    "description": "Practical job simulation focused on data analytics, business problem solving, data interpretation, and communicating analytical insights."
+  }
+]
